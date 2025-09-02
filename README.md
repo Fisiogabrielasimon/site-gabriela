@@ -2,7 +2,7 @@
 
 Site profissional para divulgação de painéis sensoriais e serviços de fisioterapia infantil.
 
-## 🚀 Como Configurar Localmente
+## Como Configurar Localmente
 
 ### 1. **Configuração do WhatsApp**
 ```bash
@@ -33,14 +33,14 @@ site-gabriela/
 - Google Fonts (Fredoka + Inter)
 
 ### 4. **Funcionalidades**
-- ✅ Site responsivo
-- ✅ Galeria de imagens interativa
-- ✅ Formulário de personalização multipasso
-- ✅ Integração com WhatsApp
-- ✅ Catálogo de produtos com preços
-- ✅ Design moderno e acessível
+- Site responsivo
+- Galeria de imagens interativa
+- Formulário de personalização multipasso
+- Integração com WhatsApp
+- Catálogo de produtos com preços
+- Design moderno e acessível
 
-## 🔧 Desenvolvimento
+## Desenvolvimento
 
 ### Executar Localmente
 ```bash
@@ -60,7 +60,7 @@ site-gabriela/
 - **Instagram**: [@fisiogabrielasimon](https://instagram.com/fisiogabrielasimon)
 - **TikTok**: [@_gabrielasimon](https://tiktok.com/@_gabrielasimon)
 
-## 🔒 Segurança
+## Segurança
 
 O número do WhatsApp está protegido no arquivo `config.js` que não é commitado ao repositório público. Para configurar:
 
@@ -120,7 +120,7 @@ Consulte o arquivo `guia-hospedagem.md` para instruções completas.
 - **Design responsivo**
 - **Otimizado para SEO**
 
-## 📋 Checklist Antes de Publicar
+## Checklist Antes de Publicar
 
 - [ ] Atualizar número do WhatsApp
 - [ ] Atualizar perfil do Instagram
@@ -129,7 +129,7 @@ Consulte o arquivo `guia-hospedagem.md` para instruções completas.
 - [ ] Testar em diferentes navegadores
 - [ ] Otimizar imagens se necessário
 
-## 🔧 Manutenção
+## Manutenção
 
 ### Adicionar Novos Produtos
 1. Edite o arquivo `catalogo.js`
@@ -152,7 +152,7 @@ Para dúvidas sobre o código ou hospedagem:
 2. Verifique a documentação das plataformas
 3. Teste sempre localmente primeiro
 
-## 🎯 Próximas Melhorias
+## Próximas Melhorias
 
 - [ ] Sistema de agendamento online
 - [ ] Blog com artigos sobre desenvolvimento infantil
@@ -162,7 +162,7 @@ Para dúvidas sobre o código ou hospedagem:
 - [ ] Chat online
 - [ ] Sistema de pagamento online
 
-## 📈 Analytics e SEO
+## Analytics e SEO
 
 ### Google Analytics
 Adicione o código de tracking no `<head>` de todas as páginas.

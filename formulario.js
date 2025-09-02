@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         if (formData.observacoes) {
-            message += `📝 *Observações e Detalhes:*\n${formData.observacoes}\n\n`;
+            message += `*Observações e Detalhes:*\n${formData.observacoes}\n\n`;
         }
         
         message += `Aguardando o orçamento. Obrigado(a)!`;

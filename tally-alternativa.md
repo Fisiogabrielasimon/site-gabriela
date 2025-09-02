@@ -6,12 +6,12 @@ O Tally.so é uma plataforma gratuita para criar formulários interativos e visu
 
 ## Vantagens do Tally.so:
 
-✅ **Gratuito** - Plano gratuito generoso
-✅ **Visual** - Suporte a imagens em cada opção
-✅ **Lógica Condicional** - Mostra/esconde campos baseado nas respostas
-✅ **Integração WhatsApp** - Redireciona automaticamente para WhatsApp
-✅ **Design Moderno** - Interface muito mais bonita que Google Forms
-✅ **Sem Código** - Fácil de criar e editar
+- **Gratuito** - Plano gratuito generoso
+- **Visual** - Suporte a imagens em cada opção
+- **Lógica Condicional** - Mostra/esconde campos baseado nas respostas
+- **Integração WhatsApp** - Redireciona automaticamente para WhatsApp
+- **Design Moderno** - Interface muito mais bonita que Google Forms
+- **Sem Código** - Fácil de criar e editar
 
 ## Como Criar o Formulário no Tally.so:
 
@@ -73,16 +73,16 @@ O Tally.so é uma plataforma gratuita para criar formulários interativos e visu
 
 #### **Página 4: Personalização**
 **Tema do Painel (Múltipla escolha com imagens):**
-- Animais 🐙
-- Natureza 🌿
-- Cores 🌈
-- Espacial 🚀
+- Animais
+- Natureza
+- Cores
+- Espacial
 - Sem tema específico
 
 **Biscuits Decorativos (Múltipla seleção, máximo 3):**
-- Polvo 🐙
-- Estrela ⭐
-- Flor 🌸
+- Polvo
+- Estrela
+- Flor
 - Coração 💖
 - Lua 🌙
 - Sol ☀️
