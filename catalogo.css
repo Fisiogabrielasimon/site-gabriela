@@ -1,0 +1,83 @@
+.catalogo-hero { background: linear-gradient(135deg, #f8f9ff 0%, #e8f4f8 100%); padding: 120px 0 60px; text-align: center; }
+.catalogo-title { font-family: var(--font-primary); font-size: 3rem; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: var(--spacing-md); }
+.catalogo-subtitle { font-size: 1.2rem; color: var(--color-gray-medium); }
+.catalogo-produtos { padding: var(--spacing-xxl) 0; }
+.produtos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: var(--spacing-xl); }
+.produto-card { background: var(--color-white); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md); overflow: hidden; transition: var(--transition-normal); display: flex; flex-direction: column; }
+.produto-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+.produto-badge { position: absolute; top: var(--spacing-sm); right: var(--spacing-sm); background: var(--gradient-primary); color: var(--color-white); padding: 0.5rem 1rem; border-radius: var(--border-radius-xl); font-size: 0.8rem; font-weight: 600; z-index: 3; }
+.produto-info { padding: var(--spacing-lg); flex-grow: 1; display: flex; flex-direction: column; }
+.produto-title { font-family: var(--font-primary); font-size: 1.5rem; color: var(--color-purple); margin-bottom: var(--spacing-sm); }
+.produto-description { color: var(--color-gray-medium); font-size: 0.9rem; margin-bottom: var(--spacing-md); line-height: 1.5; flex-grow: 1; }
+.produto-detail { color: var(--color-gray-medium); font-size: 0.85rem; margin-bottom: var(--spacing-xs); line-height: 1.4; }
+.produto-detail strong { color: var(--color-purple); font-weight: 600; }
+.produto-detail { color: var(--color-gray-medium); font-size: 0.85rem; margin-bottom: var(--spacing-xs); line-height: 1.4; }
+.produto-detail strong { color: var(--color-purple); font-weight: 600; }
+.produto-specs { display: flex; justify-content: space-between; margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--color-gray-medium); }
+.produto-price { display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
+.price { font-family: var(--font-primary); font-size: 1.5rem; font-weight: 700; color: var(--color-pink); }
+.btn-ver-mais { padding: 0.8rem 1.2rem; background: var(--color-turquoise); color: var(--color-white); border: none; border-radius: var(--border-radius-md); font-weight: 600; cursor: pointer; transition: var(--transition-normal); }
+.btn-ver-mais:hover { background: #00B8BB; }
+.catalogo-cta { background: var(--color-gray-light); padding: var(--spacing-xxl) 0; text-align: center; }
+.cta-content h2 { font-family: var(--font-primary); color: var(--color-purple); margin-bottom: var(--spacing-md); }
+.cta-content p { color: var(--color-gray-medium); margin-bottom: var(--spacing-xl); font-size: 1.1rem; }
+.cta-buttons { display: flex; justify-content: center; gap: var(--spacing-md); flex-wrap: wrap; }
+.loading, .empty-state { text-align: center; padding: var(--spacing-xxl); color: var(--color-gray-medium); font-size: 1.2rem; }
+
+/* ESTILOS PARA A GALERIA DO CATÁLOGO */
+.produto-image-gallery {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3/2;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.gallery-img.active {
+    opacity: 1;
+    z-index: 1;
+}
+.gallery-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.produto-image-gallery:hover .gallery-btn {
+    opacity: 1;
+}
+.gallery-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.gallery-btn.prev {
+    left: 10px;
+}
+.gallery-btn.next {
+    right: 10px;
+}
+
+@media (max-width: 768px) { .produtos-grid { grid-template-columns: 1fr; } .cta-buttons { flex-direction: column; align-items: center; } }

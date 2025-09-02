@@ -1,0 +1,22 @@
+# Arquivos de configuração com dados sensíveis
+config.js
+
+# Arquivos temporários
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Pasta de códigos antigos (se houver)
+Codes/
+
+# Arquivos do sistema
+desktop.ini
+.vscode/settings.json

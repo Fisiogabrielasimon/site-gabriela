@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalize Seu Painel Sensorial - Gabriela Simon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/logo.png" alt="Gabriela Simon - Fisioterapia Infantil" class="logo-img">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html#home" class="nav-link">Início</a></li>
+                    <li><a href="index.html#sobre" class="nav-link">Sobre Mim</a></li>
+                    <li><a href="index.html#paineis" class="nav-link">Painéis Sensoriais</a></li>
+                    <li><a href="catalogo.html" class="nav-link">Catálogo</a></li>
+                    <li><a href="formulario.html" class="nav-link active">Personalizar</a></li>
+                    <li><a href="index.html#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="formulario-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="formulario-title">Personalize Seu Painel Sensorial</h1>
+                    <p class="formulario-subtitle">Crie o painel perfeito para sua criança com elementos cuidadosamente selecionados</p>
+                </div>
+            </div>
+        </section>
+        <section class="formulario-principal">
+            <div class="container">
+                <form id="painel-form" novalidate>
+                    <!-- Passo 1: Informações Básicas -->
+                    <div class="form-step active" data-step="1">
+                        <h2 class="step-title">Informações Básicas</h2>
+                        <p class="step-description">Vamos começar conhecendo um pouco sobre a criança e suas necessidades.</p>
+                        <div class="form-grid">
+                            <div class="form-group"><label for="nome-crianca">Nome da Criança *</label><input type="text" id="nome-crianca" name="nomeCrianca" required></div>
+                            <div class="form-group"><label for="idade">Idade *</label><select id="idade" name="idade" required><option value="">Selecione</option><option value="0-6 meses">0-6 meses</option><option value="6-12 meses">6-12 meses</option><option value="1-2 anos">1-2 anos</option><option value="2-3 anos">2-3 anos</option><option value="3-4 anos">3-4 anos</option><option value="4+ anos">4+ anos</option></select></div>
+                            <div class="form-group"><label for="nome-responsavel">Seu Nome *</label><input type="text" id="nome-responsavel" name="nomeResponsavel" required></div>
+                            <div class="form-group"><label for="whatsapp">Seu WhatsApp *</label><input type="tel" id="whatsapp" name="whatsapp" placeholder="(11) 99999-9999" required></div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 2: Tamanho e Base -->
+                    <div class="form-step" data-step="2">
+                        <h2 class="step-title">Tamanho e Material</h2>
+                        <p class="step-description">Conheça as especificações do nosso painel padrão.</p>
+                        <div class="size-options">
+                            <div class="size-option selected" data-size="Padrão (100x60cm)"><div class="size-visual"><div class="size-preview grande"></div></div><h3>Padrão</h3><p>100x60cm</p><small>Modelo Casinha</small></div>
+                        </div>
+                        <div class="base-options">
+                            <h3>Material da Base</h3>
+                            <div class="material-info">
+                                <div class="material-preview">
+                                    <div class="color-option selected" data-color="Madeira Pinus Natural" title="Madeira Pinus Natural" style="background-image: url('https://www.eucatex.com.br/blog/wp-content/uploads/2018/11/piso-laminado-eucafloor-new-elegance-carvalho.jpg'); background-size: cover; position: relative; width: 120px; height: 80px; border-radius: 8px; overflow: hidden;">
+                                    </div>
+                                    <div class="material-label">
+                                        <strong>Madeira Pinus Natural</strong>
+                                    </div>
+                                </div>
+                                <div class="material-details">
+                                    <p><strong>Espessura:</strong> 20mm</p>
+                                    <p><strong>Pintura:</strong> Atóxica e segura para crianças</p>
+                                    <p><strong>Fixação:</strong> Todos os itens fixados com segurança</p>
+                                    <p><strong>Prazo:</strong> 30 dias úteis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passo 3: Elementos Sensoriais -->
+                    <div class="form-step" data-step="3">
+                        <h2 class="step-title">Elementos Sensoriais</h2>
+                        <div class="personalizacao-note">
+                            <div class="note-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="note-content">
+                                <h3>Personalizamos Cada Painel</h3>
+                                <p>Os elementos apresentados abaixo são <strong>sugestões inspiradoras</strong> baseadas em nossa experiência. Seu painel será <strong>único e personalizado</strong> conforme suas necessidades específicas. Durante nossa conversa, discutiremos suas preferências, temas de interesse da criança e objetivos terapêuticos para criar o painel perfeito.</p>
+                            </div>
+                        </div>
+                        <p class="step-description">Selecione elementos que chamaram sua atenção para incluir em nossa conversa.</p>
+                        <div class="elementos-categories">
+                            <div class="category"><h3>Funcionais e Causa/Efeito</h3><div class="elementos-grid">
+                                <div class="elemento-option" data-elemento="trinco-trava" title="Estimula o movimento de deslizar e a coordenação motora bilateral."><img src="./img/elementos/trinco-trava.jpg" alt="Trinco"><span>Trinco de Trava</span></div>
+                                <div class="elemento-option" data-elemento="fechadura-chave" title="Convida a criança a experimentar abrir e fechar com chave."><img src="./img/elementos/fechadura-chave.jpg" alt="Fechadura"><span>Fechadura c/ Chave</span></div>
+                                <div class="elemento-option" data-elemento="registro-torneira" title="Simula o movimento de girar, excelente para treino do punho."><img src="./img/elementos/registro-torneira.jpg" alt="Torneira"><span>Registro Torneira</span></div>
+                                <div class="elemento-option" data-elemento="rodinha-giratoria" title="Estimula a coordenação motora fina e a noção de causa e efeito."><img src="./img/elementos/rodinha-giratoria.jpg" alt="Rodinha"><span>Rodinha Giratória</span></div>
+                                <div class="elemento-option" data-elemento="interruptor" title="Promove a causa e efeito (ligar/desligar) e a destreza dos dedos."><img src="./img/elementos/interruptor.jpg" alt="Interruptor"><span>Interruptor Triplo</span></div>
+                                <div class="elemento-option" data-elemento="luz-toque" title="Estimula a visão e a compreensão de causa e efeito (tocar para acender)."><img src="./img/elementos/luz-toque.jpg" alt="Luz"><span>Luz de Toque</span></div>
+                                <div class="elemento-option" data-elemento="tomada-plug" title="Promove a coordenação motora fina e a compreensão de encaixe."><img src="./img/elementos/tomada-plug.jpg" alt="Tomada"><span>Adaptador de Tomada</span></div>
+                            </div></div>
+                            <div class="category"><h3>Táteis e Motores</h3><div class="elementos-grid">
+                                <div class="elemento-option" data-elemento="parafusos-porcas" title="Desenvolve a coordenação motora fina, força de pinça e noções de rosca."><img src="./img/elementos/parafusos-coloridos.jpg" alt="Parafusos"><span>Parafusos Coloridos</span></div>
+                                <div class="elemento-option" data-elemento="peixe-lantejoula" title="Trabalha regulação sensorial, curiosidade tátil e atenção."><img src="./img/elementos/peixe-lantejoula.jpg" alt="Lantejoula"><span>Peixe Lantejoula</span></div>
+                                <div class="elemento-option" data-elemento="labirinto-arcoiris" title="Promove coordenação motora fina, percepção visual e concentração."><img src="./img/elementos/labirinto-arcoiris.jpg" alt="Labirinto"><span>Labirinto Arco-Íris</span></div>
+                                <div class="elemento-option" data-elemento="encaixe-vegetais" title="Estimula o reconhecimento de formas e cores, e o desenvolvimento da linguagem."><img src="./img/elementos/encaixe-vegetais.jpg" alt="Vegetais"><span>Encaixe Vegetais</span></div>
+                                <div class="elemento-option" data-elemento="amarrar-animais" title="Desenvolve a destreza manual e a concentração através da atividade de amarrar."><img src="./img/elementos/alinhavo-animais.jpg" alt="Alinhavo"><span>Alinhavo de Animais</span></div>
+                                <div class="elemento-option" data-elemento="tubo-bolinhas" title="Promove a percepção de causa e efeito e o raciocínio espacial."><img src="./img/elementos/tubo-bolinhas.jpg" alt="Tubo"><span>Tubo com Bolinhas</span></div>
+                            </div></div>
+                            <div class="category"><h3>Sonoros e Visuais</h3><div class="elementos-grid">
+                                <div class="elemento-option" data-elemento="espelho-bichinho" title="Estimula o reconhecimento corporal, percepção visual e autoestima."><img src="./img/elementos/espelho-bichinho.jpg" alt="Espelho"><span>Espelho de Bichinho</span></div>
+                                <div class="elemento-option" data-elemento="teclado-musical" title="Promove estimulação auditiva e incentiva a musicalidade."><img src="./img/elementos/teclado-musical.jpg" alt="Teclado"><span>Teclado Musical</span></div>
+                                <div class="elemento-option" data-elemento="xilofone" title="Desenvolve o ritmo, a musicalidade e a exploração sonora."><img src="./img/elementos/xilofone.jpg" alt="Xilofone"><span>Xilofone</span></div>
+                                <div class="elemento-option" data-elemento="campainha" title="Estimula a audição e a relação entre ação e som."><img src="./img/elementos/campainha.jpg" alt="Campainha"><span>Campainha</span></div>
+                                <div class="elemento-option" data-elemento="abaco" title="Desenvolve o reconhecimento de cores, números e habilidades matemáticas."><img src="./img/elementos/abaco.jpg" alt="Ábaco"><span>Ábaco Colorido</span></div>
+                                <div class="elemento-option" data-elemento="lousa-magica" title="Estimula a criatividade, a expressão artística e a imaginação."><img src="./img/elementos/lousa-magica.jpg" alt="Lousa"><span>Lousa Mágica</span></div>
+                            </div></div>
+                            <div class="category"><h3>Faz de Conta e Fidgets</h3><div class="elementos-grid">
+                                <div class="elemento-option" data-elemento="controle-remoto" title="Estimula o faz de conta e o vínculo com objetos do cotidiano."><img src="./img/elementos/controle-remoto.jpg" alt="Controle"><span>Controle Remoto</span></div>
+                                <div class="elemento-option" data-elemento="telefone" title="Promove a interação social e o desenvolvimento da linguagem."><img src="./img/elementos/telefone.jpg" alt="Telefone"><span>Telefone</span></div>
+                                <div class="elemento-option" data-elemento="fidget-borboleta" title="Ajuda na concentração e no alívio do estresse."><img src="./img/elementos/spinner-borboleta.jpg" alt="Spinner"><span>Spinner Borboleta</span></div>
+                                <div class="elemento-option" data-elemento="jogo-agua" title="Promove a concentração, a paciência e o raciocínio lógico."><img src="./img/elementos/jogo-agua.jpg" alt="Jogo de Água"><span>Jogo de Água</span></div>
+                                <div class="elemento-option" data-elemento="cubo-giratorio" title="Estimula o raciocínio lógico e a resolução de problemas."><img src="./img/elementos/cubo-giratorio.jpg" alt="Cubo"><span>Cubo Giratório</span></div>
+                                <div class="elemento-option" data-elemento="spinner-abelha" title="Proporciona estimulação tátil e visual, ajuda na concentração."><img src="./img/elementos/spinner-abelha.jpg" alt="Spinner Abelha"><span>Spinner Abelha</span></div>
+                            </div></div>
+                            <div class="category"><h3>Personalização Especial</h3><div class="elementos-grid">
+                                <div class="elemento-option" data-elemento="bichinhos-biscuit" title="Peças feitas à mão com acabamento delicado, ideais para decoração."><img src="./img/elementos/bichinhos-biscuit.jpg" alt="Biscuit"><span>Bichinhos de Biscuit</span></div>
+                            </div></div>
+                        </div>
+                        
+                        <div id="elemento-descricao-display" class="elemento-descricao-container" style="display: none;">
+                            <!-- A descrição do elemento clicado aparecerá aqui -->
+                        </div>
+
+                        <div class="elementos-selecionados"><h3>Elementos Selecionados: <span id="count-elementos">0</span> de <span id="limite-elementos">6</span></h3><div id="lista-elementos" class="lista-elementos"></div></div>
+                    </div>
+                    
+                    <!-- Passo 4: Finalização -->
+                    <div class="form-step" data-step="4">
+                        <h2 class="step-title">Finalizar e Solicitar Orçamento</h2>
+                        <p class="step-description">Confira os detalhes do seu painel. O orçamento será enviado no WhatsApp.</p>
+                        <div class="resumo-container">
+                            <div class="resumo-detalhes">
+                                <h3>Resumo do Pedido</h3>
+                                <div id="resumo-content" class="resumo-content"><p>Preencha os passos anteriores para ver o resumo.</p></div>
+                                <div class="form-group full-width">
+                                    <label for="observacoes">Observações e Detalhes da Personalização</label>
+                                    <textarea id="observacoes" name="observacoes" placeholder="Ex: Tema de dinossauros, cor favorita é verde, gostaria dos biscuits de porco, vaca e galinha..."></textarea>
+                                </div>
+                                <div class="form-group"><label><input type="checkbox" id="aceito-termos" required> Li as informações e autorizo o contato via WhatsApp para receber o orçamento.</label></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-navigation">
+                        <button type="button" id="btn-anterior" class="btn btn-secondary" style="display: none;"><i class="fas fa-arrow-left"></i> Anterior</button>
+                        <div class="nav-center">
+                            <a href="index.html" class="btn btn-outline">
+                                <i class="fas fa-home"></i> Voltar ao Início
+                            </a>
+                        </div>
+                        <button type="button" id="btn-proximo" class="btn btn-primary">Próximo <i class="fas fa-arrow-right"></i></button>
+                        <button type="submit" id="btn-finalizar" class="btn btn-primary" style="display: none;"><i class="fab fa-whatsapp"></i> Solicitar Orçamento</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./img/logo.png" alt="Gabriela Simon" class="footer-logo-img">
+                </div>
+                <div class="footer-text">
+                    <p>© 2024 Gabriela Simon - Fisioterapia Infantil. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-navigation">
+                    <a href="index.html" class="footer-nav-link">Voltar ao Início</a>
+                    <a href="catalogo.html" class="footer-nav-link">Ver Catálogo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="formulario.js"></script>
+    <script src="config.js"></script>
+</body>
+</html>
