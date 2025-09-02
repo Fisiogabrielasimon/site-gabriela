@@ -100,6 +100,7 @@ function navigateGallery(cardIndex, direction) {
 
 function solicitarOrcamento(nomeProduto) {
     const mensagem = `Olá! Tenho interesse no painel pronto "${nomeProduto}" que vi no catálogo. Poderia me passar um orçamento?`;
-    const whatsappURL = getWhatsAppLink(mensagem);
+    const whatsappNumber = '5516991613320';
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensagem)}`;
     window.open(whatsappURL, '_blank');
 }

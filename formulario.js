@@ -182,8 +182,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
         requiredInputs.forEach(input => {
             input.style.borderColor = '#e9ecef';
-            if (!input.value.trim()) {
-                if (input.type !== 'checkbox' || !input.checked) {
+            
+            if (input.type === 'checkbox') {
+                // Para checkboxes, verificar se está marcado
+                if (!input.checked) {
+                    if (!firstInvalidInput) firstInvalidInput = input;
+                    input.style.borderColor = 'red';
+                }
+            } else {
+                // Para outros inputs, verificar se tem valor
+                if (!input.value.trim()) {
                     if (!firstInvalidInput) firstInvalidInput = input;
                     input.style.borderColor = 'red';
                 }
@@ -253,7 +261,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
         message += `Aguardando o orçamento. Obrigado(a)!`;
         
-        const whatsappURL = getWhatsAppLink(message);
+        const whatsappNumber = '5516991613320';
+        const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
         
         window.open(whatsappURL, '_blank');
     }

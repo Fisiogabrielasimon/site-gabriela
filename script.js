@@ -34,13 +34,4 @@ document.addEventListener('DOMContentLoaded', function() {
     if (galeriaContent) {
         loadGaleria();
     }
-    
-    // Inicializar links do WhatsApp quando a página carregar
-    const whatsappLinks = document.querySelectorAll('.whatsapp-link');
-    whatsappLinks.forEach(link => {
-        if (link.getAttribute('href') === '#') {
-            const customMessage = link.getAttribute('data-message') || CONFIG.whatsapp.defaultMessage;
-            link.href = getWhatsAppLink(customMessage);
-        }
-    });
 });
