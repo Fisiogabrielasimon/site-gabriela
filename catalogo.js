@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 1,
             nome: "Painel Sensorial de Madeira Pinus - Modelo Casinha",
-            tamanho: "100x60 cm",
+            tamanho: "45x65 cm",
             faixaEtaria: "A partir de 1 ano",
             badge: "Prazo: 30 dias úteis",
             descricao: "Um convite ao brincar com propósito. Produto exclusivo, desenvolvido para oferecer uma experiência rica em estímulos sensoriais e motores. Este painel interativo foi pensado para promover o desenvolvimento afetivo, cognitivo e psicomotor das crianças, por meio de atividades que estimulam o tato, a visão, a audição, a coordenação motora e habilidades como concentração, estratégia e raciocínio lógico.",
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 2,
             nome: "Painel Sensorial Temático - Fazendinha",
-            tamanho: "100x60 cm",
+            tamanho: "45x65 cm",
             faixaEtaria: "A partir de 1 ano", 
             badge: "Prazo: 30 dias úteis",
             descricao: "Uma experiência lúdica, personalizada e cheia de encantamento. Inspirado na vida no campo, traz elementos em biscuit como vaquinha, porquinho, galinha e cercadinhos de madeira, integrados com estímulos sensoriais como texturas, zíperes e sons. Uma proposta encantadora que trabalha linguagem, reconhecimento de animais e vínculo com o cotidiano.",

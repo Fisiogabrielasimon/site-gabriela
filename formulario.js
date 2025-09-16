@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let formData = { elementos: [] };
 
     const limites = {
-        "Padrão (100x60cm)": 12
+        "Pequeno (45x30cm)": 7,
+        "Médio (45x65cm)": 9
     };
 
     const descricoesElementos = {
@@ -58,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }));
 
     // Inicialização padrão
-    formData.tamanho = "Padrão (100x60cm)";
+    formData.tamanho = "Médio (45x65cm)";
     formData.corBase = "Madeira Pinus Natural";
     
     // Atualizar limite de elementos
