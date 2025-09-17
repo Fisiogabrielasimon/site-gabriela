@@ -30,7 +30,7 @@
 .size-visual { margin-bottom: var(--spacing-md); display: flex; justify-content: center; }
 .size-preview { border: 2px solid var(--color-purple); border-radius: 5px; }
 .size-preview.pequeno { width: 45px; height: 30px; } 
-.size-preview.medio { width: 60px; height: 36px; }
+.size-preview.medio { width: 45px; height: 65px; }
 .size-preview.grande { width: 80px; height: 48px; }
 .size-option h3 { font-family: var(--font-primary); color: var(--color-purple); }
 .base-options { text-align: center; }

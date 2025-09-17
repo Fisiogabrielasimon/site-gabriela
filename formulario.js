@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const limites = {
         "Pequeno (45x30cm)": 7,
-        "Médio (100x60cm)": 9,
+        "Médio (45x65cm)": 9,
         "Grande (100x60cm)": 12
     };
 
