@@ -1,6 +1,32 @@
-.catalogo-hero { background: linear-gradient(135deg, #f8f9ff 0%, #e8f4f8 100%); padding: 120px 0 60px; text-align: center; }
-.catalogo-title { font-family: var(--font-primary); font-size: 3rem; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: var(--spacing-md); }
-.catalogo-subtitle { font-size: 1.2rem; color: var(--color-gray-medium); }
+.catalogo-hero { 
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f4f8 100%); 
+    padding: 120px 0 60px; 
+    text-align: center; 
+}
+
+.catalogo-hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.catalogo-title { 
+    font-family: var(--font-primary); 
+    font-size: 3rem; 
+    background: var(--gradient-primary); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    margin-bottom: var(--spacing-md); 
+    line-height: 1.2;
+}
+
+.catalogo-subtitle { 
+    font-size: 1.2rem; 
+    color: var(--color-gray-medium); 
+    margin-bottom: var(--spacing-lg);
+    line-height: 1.4;
+}
 .catalogo-produtos { padding: var(--spacing-xxl) 0; }
 .produtos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: var(--spacing-xl); }
 .produto-card { background: var(--color-white); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md); overflow: hidden; transition: var(--transition-normal); display: flex; flex-direction: column; }
@@ -107,6 +133,23 @@
         border-radius: 15px;
         overflow: hidden;
     }
+    
+    /* Hero responsivo */
+    .catalogo-hero {
+        padding: 100px 0 40px;
+    }
+    .catalogo-title {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+    .catalogo-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+    .catalogo-hero .hero-content {
+        padding: 0 1rem;
+    }
+    
     .produto-card {
         max-width: 100%;
         margin: 0 auto;
