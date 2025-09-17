@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const produtos = [
         {
             id: 1,
-            nome: "Painel Sensorial de Madeira Pinus - Modelo Casinha",
+            nome: "Painel Sensorial Temático - Fazendinha",
             tamanho: "45x65 cm",
             faixaEtaria: "A partir de 1 ano",
             badge: "Prazo: 30 dias úteis",
-            descricao: "Um convite ao brincar com propósito. Produto exclusivo, desenvolvido para oferecer uma experiência rica em estímulos sensoriais e motores. Este painel interativo foi pensado para promover o desenvolvimento afetivo, cognitivo e psicomotor das crianças, por meio de atividades que estimulam o tato, a visão, a audição, a coordenação motora e habilidades como concentração, estratégia e raciocínio lógico.",
+            descricao: "Uma experiência lúdica, personalizada e cheia de encantamento. Inspirado na vida no campo, traz elementos em biscuit como vaquinha, porquinho, galinha e cercadinhos de madeira, integrados com estímulos sensoriais como texturas, zíperes e sons. Uma proposta encantadora que trabalha linguagem, reconhecimento de animais e vínculo com o cotidiano.",
             material: "Madeira pinus natural (espessura de 20 mm)",
             pintura: "Atóxica e segura para crianças",
             fixacao: "Todos os itens são fixados com segurança",
@@ -23,15 +23,16 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 2,
-            nome: "Painel Sensorial Temático - Fazendinha",
+            nome: "Painel Sensorial de Madeira Pinus - Personalizado",
             tamanho: "45x65 cm",
-            faixaEtaria: "A partir de 1 ano", 
+            faixaEtaria: "A partir de 1 ano",
             badge: "Prazo: 30 dias úteis",
-            descricao: "Uma experiência lúdica, personalizada e cheia de encantamento. Inspirado na vida no campo, traz elementos em biscuit como vaquinha, porquinho, galinha e cercadinhos de madeira, integrados com estímulos sensoriais como texturas, zíperes e sons. Uma proposta encantadora que trabalha linguagem, reconhecimento de animais e vínculo com o cotidiano.",
+            descricao: "Um convite ao brincar com propósito. Produto exclusivo, desenvolvido para oferecer uma experiência rica em estímulos sensoriais e motores. Este painel interativo foi pensado para promover o desenvolvimento afetivo, cognitivo e psicomotor das crianças, por meio de atividades que estimulam o tato, a visão, a audição, a coordenação motora e habilidades como concentração, estratégia e raciocínio lógico.",
             material: "Madeira pinus natural (espessura de 20 mm)",
             pintura: "Atóxica e segura para crianças",
             personalizacao: "Temas como fazendinha, floresta, espaço sideral disponíveis",
             ideal: "Ambientes residenciais, escolares, terapêuticos ou espaços lúdicos",
+            preco: "3x de R$ 260 sem juros ou R$ 747 à vista via Pix (5% de desconto)",
             imagens: [
                 "./img/paineis/painel-sensorial1-frente.jpg",
                 "./img/paineis/painel-sensorial1-ladoe.jpg",
